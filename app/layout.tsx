@@ -1,22 +1,33 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Inter, JetBrains_Mono } from "next/font/google";
 import Link from "next/link";
-import { Home, FolderKanban, Wrench, GraduationCap, Briefcase, FileText, Mail, Cpu } from "lucide-react";
+import {
+  Home,
+  FolderKanban,
+  Wrench,
+  GraduationCap,
+  Briefcase,
+  FileText,
+  Mail,
+  Cpu,
+} from "lucide-react";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+/* Fonts */
+const inter = Inter({
+  variable: "--font-inter",
   subsets: ["latin"],
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const mono = JetBrains_Mono({
+  variable: "--font-mono",
   subsets: ["latin"],
 });
 
 export const metadata: Metadata = {
   title: "Delight Chirume | Computer Engineer",
-  description: "Computer Engineering student specializing in embedded systems, robotics, and AI integration.",
+  description:
+    "Computer Engineering student specializing in embedded systems, robotics, and AI integration.",
 };
 
 const navItems = [
@@ -31,28 +42,32 @@ const navItems = [
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col bg-linear-to-br from-gray-950 to-gray-100 dark:from-gray-900 dark:to-gray-950`}>
+      <body
+        className={`${inter.variable} ${mono.variable} antialiased min-h-screen flex flex-col bg-gradient-to-br from-gray-950 to-gray-100 dark:from-gray-900 dark:to-gray-950`}
+      >
         {/* Header */}
         <header className="sticky top-0 z-50 backdrop-blur-md bg-white/80 dark:bg-gray-900/80 border-b border-gray-200 dark:border-gray-800">
           <nav className="container mx-auto px-4 py-4">
             <div className="flex items-center justify-between">
               <Link href="/" className="group flex items-center gap-3">
-                <div className="p-2 bg-linear-to-br from-gray-800 to-gray-900 dark:from-gray-700 dark:to-gray-800 rounded-xl group-hover:scale-105 transition-transform">
+                <div className="p-2 bg-gradient-to-br from-gray-800 to-gray-900 dark:from-gray-700 dark:to-gray-800 rounded-xl group-hover:scale-105 transition-transform">
                   <Cpu className="w-6 h-6 text-white" />
                 </div>
                 <div>
-                  <h1 className="text-xl font-bold bg-linear-to-r from-gray-800 to-gray-900 dark:from-gray-200 dark:to-gray-100 bg-clip-text text-transparent">
+                  <h1 className="text-xl font-bold bg-gradient-to-r from-gray-800 to-gray-900 dark:from-gray-200 dark:to-gray-100 bg-clip-text text-transparent">
                     Delight Chirume
                   </h1>
-                  <p className="text-xs text-gray-500 dark:text-gray-400">Computer Engineer</p>
+                  <p className="text-xs text-gray-500 dark:text-gray-400">
+                    Computer Engineer
+                  </p>
                 </div>
               </Link>
-              
+
               <div className="hidden md:flex items-center gap-1">
                 {navItems.map((item) => {
                   const Icon = item.icon;
@@ -74,31 +89,36 @@ export default function RootLayout({
           </nav>
         </header>
 
+        {/* Main */}
         <main className="flex-grow container mx-auto px-4 py-8">
           {children}
         </main>
 
         {/* Footer */}
-        <footer className="border-t border-gray-200 dark:border-gray-800 bg-linear-to-r from-purple- to-gray-100 dark:from-gray-900 dark:to-gray-950">
+        <footer className="border-t border-gray-200 dark:border-gray-800 bg-gradient-to-r from-gray-100 to-gray-200 dark:from-gray-900 dark:to-gray-950">
           <div className="container mx-auto px-4 py-8">
             <div className="grid md:grid-cols-3 gap-8">
               <div>
                 <div className="flex items-center gap-3 mb-4">
-                  <div className="p-2 bg-linear-to-br from-gray-800 to-gray-900 rounded-xl">
+                  <div className="p-2 bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl">
                     <Cpu className="w-6 h-6 text-white" />
                   </div>
                   <div>
                     <h3 className="font-bold text-lg">Delight Chirume</h3>
-                    <p className="text-sm text-white dark:text-gray-400">Computer Engineering Student</p>
+                    <p className="text-sm text-gray-600 dark:text-gray-400">
+                      Computer Engineering Student
+                    </p>
                   </div>
                 </div>
                 <p className="text-gray-600 dark:text-gray-400 text-sm">
                   Building intelligent systems with precision and passion.
                 </p>
               </div>
-              
+
               <div>
-                <h4 className="font-semibold mb-4 text-gray-800 dark:text-gray-200">Quick Links</h4>
+                <h4 className="font-semibold mb-4 text-gray-800 dark:text-gray-200">
+                  Quick Links
+                </h4>
                 <div className="grid grid-cols-2 gap-2">
                   {navItems.slice(1).map((item) => (
                     <Link
@@ -111,20 +131,24 @@ export default function RootLayout({
                   ))}
                 </div>
               </div>
-              
+
               <div>
-                <h4 className="font-semibold mb-4 text-gray-800 dark:text-gray-200">Connect</h4>
+                <h4 className="font-semibold mb-4 text-gray-800 dark:text-gray-200">
+                  Connect
+                </h4>
                 <p className="text-gray-600 dark:text-gray-400 text-sm mb-4">
-                  Open to opportunities and collaborations in software development, embedded systems, and applied engineering projects.
+                  Open to opportunities and collaborations in software
+                  development, embedded systems, and applied engineering.
                 </p>
-                <div className="flex gap-3">
-                  <a href="mailto:email@example.com" className="px-4 py-2 bg-linear-to-r from-gray-800 to-gray-900 text-white rounded-lg text-sm hover:scale-105 transition-transform">
-                    Email Me
-                  </a>
-                </div>
+                <a
+                  href="mailto:email@example.com"
+                  className="inline-block px-4 py-2 bg-gradient-to-r from-gray-800 to-gray-900 text-white rounded-lg text-sm hover:scale-105 transition-transform"
+                >
+                  Email Me
+                </a>
               </div>
             </div>
-            
+
             <div className="border-t border-gray-200 dark:border-gray-800 mt-8 pt-6 text-center">
               <p className="text-gray-500 dark:text-gray-400 text-sm">
                 © {new Date().getFullYear()} Delight Chirume. All rights reserved.
