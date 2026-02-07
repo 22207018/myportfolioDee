@@ -88,7 +88,7 @@ export default function Resume() {
 
   return (
     <div className="min-h-screen bg-[#FAF6F2] selection:bg-[#D49E8D] selection:text-white">
-      {/* Hero Header */}
+     
       <div className="max-w-7xl mx-auto px-6 pt-24 pb-12">
         <div className="inline-flex items-center gap-2 px-3 py-1 bg-[#DED1BD]/30 rounded-full border border-[#DED1BD]/50 mb-6">
           <FileText className="w-3.5 h-3.5 text-[#B08401]" />
@@ -104,12 +104,12 @@ export default function Resume() {
 
       <div className="max-w-7xl mx-auto px-6 lg:px-8 pb-24">
         <div className="grid lg:grid-cols-12 gap-16">
-          {/* Left Column: Resume Preview */}
+          
           <div className="lg:col-span-8 space-y-8">
             <div className="relative">
               <div className="absolute inset-0 bg-[#DED1BD]/20 rounded-[3rem] translate-x-4 translate-y-4"></div>
               <div className="relative bg-white border border-[#DED1BD]/50 p-8 md:p-10 rounded-[3rem] shadow-sm">
-                {/* Resume Preview Header */}
+             
                 <div className="border-b border-[#DED1BD] pb-6 mb-8">
                   <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-4">
                     <div>

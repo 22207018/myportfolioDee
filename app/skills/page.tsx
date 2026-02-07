@@ -89,9 +89,8 @@ export default function Skills() {
           ))}
         </div>
 
-        {/* Methodology / Philosophy Section */}
         <section className="relative overflow-hidden rounded-[3rem] bg-[#683B2B] p-10 md:p-16 text-[#FAF6F2]">
-          {/* Background Decorative Blob */}
+    
           <div className="absolute top-0 right-0 w-96 h-96 bg-[#D49E8D] opacity-10 rounded-full blur-[100px] -mr-48 -mt-48"></div>
           
           <div className="relative z-10">
@@ -141,7 +140,7 @@ export default function Skills() {
           </div>
         </section>
 
-        {/* Footer Link */}
+       
         <div className="mt-20 text-center">
             <p className="text-[#683B2B]/40 text-xs tracking-widest uppercase mb-4">Ready to build something?</p>
             <div className="h-px w-12 bg-[#B08401] mx-auto opacity-30"></div>

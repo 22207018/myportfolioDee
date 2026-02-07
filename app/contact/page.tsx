@@ -5,7 +5,7 @@ import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
-import { sendEmail } from "@/app/actions/send-email"; // Adjust path as needed
+import { sendEmail } from "@/app/actions/send-email"; 
 
 const formSchema = z.object({
   firstName: z.string().min(1, 'First name is required'),

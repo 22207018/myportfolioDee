@@ -13,7 +13,7 @@ import {
 } from "lucide-react";
 import "./globals.css";
 
-/* Fonts */
+
 const inter = Inter({
   variable: "--font-inter",
   subsets: ["latin"],
@@ -89,12 +89,12 @@ export default function RootLayout({
           </nav>
         </header>
 
-        {/* Main */}
+        {/* Main*/}
         <main className="flex-grow container mx-auto px-4 py-8">
           {children}
         </main>
 
-        {/* Footer */}
+        {/*Footer*/}
         <footer className="border-t border-gray-200 dark:border-gray-800 bg-gradient-to-r from-gray-100 to-gray-200 dark:from-gray-900 dark:to-gray-950">
           <div className="container mx-auto px-4 py-8">
             <div className="grid md:grid-cols-3 gap-8">

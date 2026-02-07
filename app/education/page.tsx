@@ -168,6 +168,4 @@ export default function Education() {
     </div>
   );
 }
-
-// Added internal Link mock since your code uses Next.js
 import Link from 'next/link';

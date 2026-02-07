@@ -6,21 +6,20 @@ export default function Home() {
   return (
     <div className="relative min-h-screen bg-[#FAF6F2] text-[#683B2B] selection:bg-[#D49E8D] selection:text-white overflow-x-hidden">
       
-      {/* Editorial Decorative Background Elements */}
+      
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <div className="absolute top-[10%] left-[-5%] w-64 h-64 rounded-full bg-[#DED1BD] opacity-20 blur-3xl"></div>
         <div className="absolute bottom-[20%] right-[-5%] w-96 h-96 rounded-full bg-[#D49E8D] opacity-10 blur-3xl"></div>
-        {/* Floating "Ocher" Sphere inspired by the screenshot */}
+       
         <div className="absolute top-40 right-[10%] w-4 h-4 bg-[#B08401] rounded-full opacity-60"></div>
       </div>
 
       <div className="max-w-7xl mx-auto px-6 lg:px-8 relative z-10">
         
-        {/* HERO SECTION */}
         <section className="relative pt-24 pb-16 lg:pt-32 lg:pb-24">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             
-            {/* Left Side: Text Content */}
+            
             <div className="text-left space-y-8 order-2 lg:order-1">
               <div className="inline-block">
                 <span className="text-[#B08401] font-medium tracking-[0.2em] text-xs uppercase">Computer Engineer • Class of 2026</span>
@@ -63,23 +62,23 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Right Side: 3D Collage / Frameless Image */}
+           
             <div className="relative h-[500px] md:h-[600px] flex items-center justify-center order-1 lg:order-2">
               
-              {/* 1. Background Depth Shape */}
+              
               <div className="absolute top-10 right-10 w-72 h-72 bg-[#DED1BD] rounded-full mix-blend-multiply filter blur-3xl opacity-40 animate-pulse"></div>
 
-              {/* 2. The Main Image (Organic Blob Shape with Parallax) */}
+              
               <div 
                 className="relative z-10 w-full h-full rounded-[30%_70%_70%_30%/50%_30%_70%_50%] overflow-hidden shadow-[0_35px_60px_-15px_rgba(104,59,43,0.3)] transition-all duration-1000 hover:rounded-3xl group"
                 style={{
                   backgroundImage: `url('/inty.jpeg')`,
                   backgroundSize: 'cover',
-                  backgroundPosition: '100% 50%', // Adjusted to center your face
+                  backgroundPosition: '100% 50%',
                   backgroundAttachment: 'fixed',
                 }}
               >
-                {/* Fallback for Next.js Image Optimization but keeping CSS parallax */}
+                
                 <Image 
                   src="/inty.jpeg" 
                   alt="Delight Chirume" 
@@ -87,11 +86,11 @@ export default function Home() {
                   className="object-cover opacity-0 pointer-events-none"
                   priority
                 />
-                {/* Subtle Grainy Overlay */}
+               
                 <div className="absolute inset-0 bg-[#683B2B]/10 opacity-20 mix-blend-overlay"></div>
               </div>
 
-              {/* 3. Floating Glassmorphism Card */}
+              
               <div className="absolute -bottom-6 -left-6 z-20 p-6 backdrop-blur-xl bg-white/40 border border-white/60 rounded-2xl shadow-2xl hidden md:block transform -rotate-3 hover:rotate-0 transition-transform duration-500 cursor-default">
                 <div className="flex items-center gap-4">
                   <div className="w-10 h-10 bg-[#B08401] rounded-full flex items-center justify-center text-white">
@@ -99,19 +98,19 @@ export default function Home() {
                   </div>
                   <div>
                     <p className="text-[10px] uppercase tracking-widest text-[#683B2B] font-black">Current Focus</p>
-                    <p className="text-sm font-serif italic text-[#683B2B]">Intelligent Robotics</p>
+                    <p className="text-sm font-serif italic text-[#683B2B]">Intelligent systems</p>
                   </div>
                 </div>
               </div>
 
-              {/* 4. Small Floating Gold Accent */}
+             
               <div className="absolute top-10 -right-4 w-10 h-10 bg-[#B08401] rounded-full shadow-xl z-20 animate-bounce transition-all duration-1000" style={{ animationDuration: '4s' }}></div>
             </div>
 
           </div>
         </section>
 
-        {/* CORE EXPERTISE GRID */}
+       
         <section className="py-24">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-serif italic text-[#683B2B] mb-4">Core Expertise</h2>
@@ -180,7 +179,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* EXPLORE FURTHER / NAVIGATION */}
+       
         <section className="py-24 text-center">
           <div className="inline-flex items-center gap-4 mb-12">
             <div className="h-px w-8 bg-[#B08401]"></div>
