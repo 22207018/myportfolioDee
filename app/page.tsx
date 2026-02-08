@@ -32,13 +32,14 @@ export default function Home() {
               </h1>
 
               <p className="text-xl md:text-2xl font-light leading-relaxed max-w-xl text-[#683B2B]/80">
-                Building intelligent systems at the intersection of 
-                <span className="font-semibold text-[#B08401]"> Hardware </span> 
-                and <span className="font-semibold text-[#B08401]">AI Engineering</span>.
-              </p>
+  Developing <span className="font-semibold text-[#B08401]">intelligent software systems </span> 
+   with a strong foundation in 
+  <span className="font-semibold text-[#B08401]"> algorithms</span> and 
+  <span className="font-semibold text-[#B08401]"> applied AI</span>.
+</p>
 
               <div className="flex flex-wrap gap-3 pt-2">
-                {["Embedded Systems", "Robotics", "AI Engineering"].map((skill) => (
+                {["Algorithms", "AI-driven Logic", "System-level Problem Solving"].map((skill) => (
                   <span key={skill} className="px-4 py-1.5 border border-[#DED1BD] bg-white/40 backdrop-blur-sm rounded-full text-xs font-bold tracking-wider uppercase">
                     {skill}
                   </span>

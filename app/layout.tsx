@@ -51,7 +51,7 @@ export default function RootLayout({
         className={`${inter.variable} ${mono.variable} antialiased min-h-screen flex flex-col bg-gradient-to-br from-gray-950 to-gray-100 dark:from-gray-900 dark:to-gray-950`}
       >
         {/* Header */}
-        <header className="sticky top-0 z-50 backdrop-blur-md bg-white/80 dark:bg-gray-900/80 border-b border-gray-200 dark:border-gray-800">
+        <header className="sticky top-0 z-50 backdrop-blur-md bg-white dark:bg-gray-900/80 border-b border-gray-200 dark:border-gray-800">
           <nav className="container mx-auto px-4 py-4">
             <div className="flex items-center justify-between">
               <Link href="/" className="group flex items-center gap-3">
@@ -141,7 +141,7 @@ export default function RootLayout({
                   development, embedded systems, and applied engineering.
                 </p>
                 <a
-                  href="mailto:email@example.com"
+                  href="mailto:chirumedelight2@gmail.com"
                   className="inline-block px-4 py-2 bg-gradient-to-r from-gray-800 to-gray-900 text-white rounded-lg text-sm hover:scale-105 transition-transform"
                 >
                   Email Me
