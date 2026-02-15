@@ -28,14 +28,14 @@ export default function Education() {
     },
     {
       title: "Robotics Club Organizer",
-      period: "Sep 2023 - Present",
+      period: "Sep 2023 - September 2024",
       description: "Coordinated robotics competitions and hands-on workshops.",
       icon: Trophy,
     },
     {
       title: "FIRST Global Robotics - Zimbabwe Representative",
-      period: "2025 Panama",
-      description: "Represented Zimbabwe in international robotics engineering.",
+      period: "2019 Dubai",
+      description: "Represented Zimbabwe in international robotics competition.",
       icon: Trophy,
     },
     {
@@ -114,7 +114,7 @@ export default function Education() {
               <div className="p-8 bg-[#683B2B] rounded-[2.5rem] text-[#FAF6F2] relative overflow-hidden group">
                 <BookOpen className="w-12 h-12 text-[#D49E8D] mb-6 opacity-50 group-hover:opacity-100 transition-opacity" />
                 <h4 className="text-xl font-serif mb-2">FIRST Global Volunteer</h4>
-                <p className="text-sm text-[#FAF6F2]/60 font-light">International Robotics Mentorship, Panama 2025.</p>
+                <p className="text-sm text-[#FAF6F2]/60 font-light">International Robotics Competition, Panama 2025.</p>
               </div>
               <div className="p-8 bg-[#DED1BD]/30 border border-[#DED1BD] rounded-[2.5rem] text-[#683B2B] group">
                 <Sparkles className="w-12 h-12 text-[#B08401] mb-6 opacity-50 group-hover:opacity-100 transition-opacity" />

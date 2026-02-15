@@ -4,7 +4,7 @@ const skillCategories = [
   {
     title: "Programming Languages",
     icon: Code,
-    skills: ["C++", "TypeScript", "Python", "SQL", "C", "JavaScript", "HTML/CSS"],
+    skills: ["C++", "TypeScript", "SQL", "C", "JavaScript", "HTML/CSS"],
   },
   {
     title: "Embedded & Hardware",
@@ -24,12 +24,12 @@ const skillCategories = [
   {
     title: "Tools & Platforms",
     icon: Wrench,
-    skills: ["Git", "Linux", "Docker", "VS Code", "Vercel", "Notion"],
+    skills: ["Git", "Linux", "VS Code", "Vercel", "Notion"],
   },
   {
     title: "Databases & Storage",
     icon: Database,
-    skills: ["PostgreSQL", "Firestore", "Supabase", "File Systems"],
+    skills: ["PostgreSQL", "Firestore", "Supabase"],
   },
 ];
 

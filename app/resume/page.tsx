@@ -266,7 +266,7 @@ export default function Resume() {
                   {[
                     {
                       title: "Graduate Positions",
-                      description: "Embedded Systems, Robotics",
+                      description: "Software Engineering roles, Robotics",
                       color: "bg-[#D49E8D]/10 border-[#D49E8D]/20",
                       textColor: "text-[#683B2B]",
                     },
@@ -278,7 +278,7 @@ export default function Resume() {
                     },
                     {
                       title: "Research Opportunities",
-                      description: "AI & Embedded Systems",
+                      description: "AI & Robotics",
                       color: "bg-[#683B2B]/5 border-[#683B2B]/10",
                       textColor: "text-[#683B2B]",
                     },
