@@ -123,8 +123,8 @@ export default function Home() {
               { 
                 title: "Embedded & Robotics", 
                 icon: Cpu, 
-                desc: "Low-level system programming and hardware optimization for real-time robotics.",
-                tags: ["C/C++", "STM32", "ROS"]
+                desc: "Low-level system programming and hardware optimization .",
+                tags: ["C++", "Arduino"]
               },
               { 
                 title: "Modern Full-Stack", 
@@ -136,7 +136,7 @@ export default function Home() {
                 title: "AI & Intelligence", 
                 icon: Brain, 
                 desc: "Integrating computer vision and NLP to create truly autonomous systems.",
-                tags: ["OpenCV", "PyTorch", "OpenAI"]
+                tags: ["OpenCV", "OpenAI API"]
               }
             ].map((item, idx) => (
               <div key={idx} className="bg-white/50 backdrop-blur-sm p-10 rounded-[2.5rem] border border-[#DED1BD]/50 hover:bg-white hover:shadow-2xl hover:-translate-y-2 transition-all duration-500 group">

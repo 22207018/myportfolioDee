@@ -133,7 +133,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <p className="text-[10px] uppercase tracking-widest font-black text-[#B08401]">Languages</p>
-                    <p className="text-[#683B2B] font-serif text-lg">English, Shona, Chinese, German</p>
+                    <p className="text-[#683B2B] font-serif text-lg">English, Shona</p>
                   </div>
                 </div>
               </div>
@@ -325,8 +325,7 @@ export default function Contact() {
                 <span>Available July 2026</span>
                 <Sparkles className="w-6 h-6" />
                 <span>Remote Ready</span>
-                <Sparkles className="w-6 h-6" />
-                <span>Multilingual Support</span>
+        
                 <Sparkles className="w-6 h-6" />
               </div>
             ))}
