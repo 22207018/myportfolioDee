@@ -20,7 +20,7 @@ import { useState } from "react";
 
 export default function Resume() {
   const [copied, setCopied] = useState(false);
-  const resumeUrl = "/cvdee2026.pdf";
+  const resumeUrl = "/CVdee2026.pdf";
 
   const sections = [
     {
