@@ -20,17 +20,17 @@ const projects = [
     outcome: "Reduced onboarding time by 70% and improved matching accuracy by 85%.",
     technologies: ["Next.js", "Firebase", "OpenAI API", "Tailwind CSS"],
     githubUrl: "https://github.com/AlwinTwac/SkillsG",
-    liveUrl: "#",
+    liveUrl: "https://skills.xdots.co.zw/",
   },
   {
     title: "Kuvaneti Risk Assessment",
     description: "Comprehensive insurance risk management system with workflow automation.",
     problem: "Paper-based risk assessment leading to errors and delays.",
     solution: "Developed role-based dashboards with automated workflows.",
-    outcome: "Reduced processing time by 60% and improved accuracy.",
+    outcome: "Reduced processing time by 60% and improved accuracy: still under development",
     technologies: ["Next.js", "Supabase", "PostgreSQL"],
     githubUrl: "https://github.com/22207018/kuvaneti-site",
-    liveUrl: "#",
+    liveUrl: "https://kuvaneti-site.vercel.app/",
   },
 
   {
