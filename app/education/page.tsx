@@ -128,7 +128,7 @@ export default function Education() {
           <div className="space-y-8">
             <div className="p-8 md:p-10 bg-white border border-[#DED1BD]/50 rounded-[3rem] shadow-sm relative">
                 {/* Decorative Ocher Pill */}
-                <div className="absolute top-10 right-[-10px] w-4 h-12 bg-[#B08401] rounded-full hidden lg:block"></div>
+                <div className="absolute top-10 right-2.5 w-4 h-12 bg-[#B08401] rounded-full hidden lg:block"></div>
                 
                 <h3 className="text-2xl font-serif text-[#683B2B] mb-8">Leadership <br/><span className="italic text-[#D49E8D]">Experience</span></h3>
                 

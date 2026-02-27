@@ -159,7 +159,7 @@ export default function Resume() {
                             key={i}
                             className="flex items-start gap-3 text-[#683B2B]/80"
                           >
-                            <div className="w-1.5 h-1.5 rounded-full bg-[#B08401] mt-2 flex-shrink-0"></div>
+                            <div className="w-1.5 h-1.5 rounded-full bg-[#B08401] mt-2 shrink-0"></div>
                             <span className="text-lg leading-relaxed">
                               {item}
                             </span>
@@ -244,7 +244,7 @@ export default function Resume() {
                     "Project Portfolio Included",
                   ].map((feature, index) => (
                     <li key={index} className="flex items-start gap-3">
-                      <CheckCircle2 className="w-5 h-5 text-[#B08401] flex-shrink-0 mt-0.5" />
+                      <CheckCircle2 className="w-5 h-5 text-[#B08401] shrink-0 mt-0.5" />
                       <span>{feature}</span>
                     </li>
                   ))}
@@ -285,7 +285,7 @@ export default function Resume() {
                   ].map((item, index) => (
                     <div
                       key={index}
-                      className={`p-4 rounded-2xl border ${item.color} transition-all hover:translate-y-[-2px]`}
+                      className={`p-4 rounded-2xl border ${item.color} transition-all hover:translate-y-0.5`}
                     >
                       <h4
                         className={`font-bold text-lg mb-1 ${item.textColor}`}
