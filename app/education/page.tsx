@@ -88,11 +88,12 @@ export default function Education() {
                       <span className="flex items-center gap-1"><Calendar className="w-4 h-4"/> 2022 — 2026</span>
                     </div>
                     <p className="text-xl text-[#B08401] font-semibold">B.Sc. Computer Engineering</p>
+                    <p className="text-sm text-[#683B2B]/70 font-medium">Graduated June 26, 2026 with a strong academic record and practical project experience.</p>
                   </div>
                   
                   <div className="flex flex-col items-end">
-                    <div className="text-5xl font-serif text-[#683B2B]">3.65<span className="text-xl opacity-40">/4.0</span></div>
-                    <p className="text-[10px] uppercase tracking-widest font-black text-[#D49E8D] mt-2">Cumulative GPA</p>
+                    <div className="text-5xl font-serif text-[#683B2B]">3.66<span className="text-xl opacity-40">/4.0</span></div>
+                    <p className="text-[10px] uppercase tracking-widest font-black text-[#D49E8D] mt-2">CGPA</p>
                   </div>
                 </div>
 
@@ -159,9 +160,9 @@ export default function Education() {
         {/* Impact Stat Block */}
         <div className="mt-24 p-12 md:p-20 bg-[#B08401] rounded-[4rem] text-white text-center relative overflow-hidden">
              <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-10"></div>
-             <h2 className="text-4xl md:text-5xl font-serif italic mb-6 relative z-10">Bridging Classrooms & Competitions</h2>
+             <h2 className="text-4xl md:text-5xl font-serif italic mb-6 relative z-10">Prepared for real-world engineering roles</h2>
              <p className="max-w-2xl mx-auto text-white/80 font-light text-lg relative z-10">
-               My education isn&apos;t just about grades; it&apos;s about leading a community of 500+ students and competing on the global stage.
+               My academic background, leadership experience, and project work have prepared me to contribute to software engineering, embedded systems, and AI-focused teams.
              </p>
         </div>
       </div>

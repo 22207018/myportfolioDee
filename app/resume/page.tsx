@@ -29,8 +29,8 @@ export default function Resume() {
       items: [
         "Bachelor's in Computer Engineering",
         "Cyprus International University",
-        "Expected Graduation: June 2026",
-        "GPA: 3.65/4.0",
+        "Graduated: June 26, 2026",
+        "CGPA: 3.66/4.0",
       ],
     },
     {
@@ -117,13 +117,13 @@ export default function Resume() {
                         DELIGHT CHIRUME
                       </h2>
                       <p className="text-xl text-[#D49E8D] font-serif italic">
-                        Computer Engineering Student
+                        Computer Engineering Graduate
                       </p>
                     </div>
                     <div className="flex items-center gap-2 text-[#B08401]">
                       <Calendar className="w-4 h-4" />
                       <span className="text-sm font-bold uppercase tracking-wider">
-                        Graduating June 2026
+                        Graduated June 26, 2026
                       </span>
                     </div>
                   </div>
@@ -134,7 +134,7 @@ export default function Resume() {
                     </div>
                     <div className="flex items-center gap-2 text-[#683B2B]/70">
                       <Award className="w-4 h-4" />
-                      <span className="text-sm">GPA: 3.65/4.0</span>
+                      <span className="text-sm">CGPA: 3.66/4.0</span>
                     </div>
                     <div className="flex items-center gap-2 text-[#683B2B]/70">
                       <Globe2 className="w-4 h-4" />
@@ -265,20 +265,20 @@ export default function Resume() {
                 <div className="space-y-4">
                   {[
                     {
-                      title: "Graduate Positions",
-                      description: "Software Engineering roles, Robotics",
+                      title: "Software Engineering Roles",
+                      description: "Frontend, backend, and full-stack opportunities",
                       color: "bg-[#D49E8D]/10 border-[#D49E8D]/20",
                       textColor: "text-[#683B2B]",
                     },
                     {
-                      title: "Full-time from July 2026",
-                      description: "Software Engineering Roles",
+                      title: "Embedded Systems & Robotics",
+                      description: "Practical engineering and product development roles",
                       color: "bg-[#B08401]/10 border-[#B08401]/20",
                       textColor: "text-[#683B2B]",
                     },
                     {
-                      title: "Research Opportunities",
-                      description: "AI & Robotics",
+                      title: "AI & Intelligent Systems",
+                      description: "Applied AI, automation, and computer vision projects",
                       color: "bg-[#683B2B]/5 border-[#683B2B]/10",
                       textColor: "text-[#683B2B]",
                     },
@@ -306,8 +306,8 @@ export default function Resume() {
               <h3 className="text-xl font-serif mb-6 italic">At a Glance</h3>
               <div className="space-y-6">
                 <div className="space-y-2">
-                  <div className="text-3xl font-serif font-bold">3.65</div>
-                  <div className="text-sm text-[#FAF6F2]/80">GPA (4.0 Scale)</div>
+                  <div className="text-3xl font-serif font-bold">3.66</div>
+                  <div className="text-sm text-[#FAF6F2]/80">CGPA (4.0 Scale)</div>
                 </div>
                 <div className="space-y-2">
                   <div className="text-3xl font-serif font-bold">3+</div>
@@ -330,7 +330,7 @@ export default function Resume() {
                 key={i}
                 className="flex items-center gap-12 text-[#683B2B]/20 text-4xl font-serif italic"
               >
-                <span>Graduate from June 2026</span>
+                <span>Graduate Ready to Contribute</span>
                 <Sparkles className="w-6 h-6" />
                 <span>Open to Opportunities</span>
                 <Sparkles className="w-6 h-6" />

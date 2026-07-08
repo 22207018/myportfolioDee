@@ -70,24 +70,16 @@ export default function Home() {
               <div className="absolute top-10 right-10 w-72 h-72 bg-[#DED1BD] rounded-full mix-blend-multiply filter blur-3xl opacity-40 animate-pulse"></div>
 
               
-              <div 
-                className="relative z-10 w-full h-full rounded-[30%_70%_70%_30%/50%_30%_70%_50%] overflow-hidden shadow-[0_35px_60px_-15px_rgba(104,59,43,0.3)] transition-all duration-1000 hover:rounded-3xl group"
-                style={{
-                  backgroundImage: `url('/inty.jpeg')`,
-                  backgroundSize: 'cover',
-                  backgroundPosition: '100% 50%',
-                  backgroundAttachment: 'fixed',
-                }}
-              >
-                
-                <Image 
-                  src="/inty.jpeg" 
-                  alt="Delight Chirume" 
-                  fill 
-                  className="object-cover opacity-0 pointer-events-none"
+              <div className="relative z-10 w-full h-full overflow-hidden rounded-[30%_70%_70%_30%/50%_30%_70%_50%] shadow-[0_35px_60px_-15px_rgba(104,59,43,0.3)] transition-all duration-1000 hover:rounded-3xl group bg-[#DED1BD]">
+                <Image
+                  src="/in4.jpeg"
+                  alt="Delight Chirume"
+                  fill
                   priority
+                  sizes="(max-width: 1024px) 100vw, 50vw"
+                  className="object-contain object-center"
                 />
-               
+
                 <div className="absolute inset-0 bg-[#683B2B]/10 opacity-20 mix-blend-overlay"></div>
               </div>
 
@@ -165,10 +157,10 @@ export default function Home() {
             
             <div className="grid grid-cols-2 md:grid-cols-4 gap-12 text-center relative z-10">
               {[
-                { label: "GPA", val: "3.65", sub: "Cumulative" },
-                { label: "Graduation", val: "2026", sub: "Comp Engineering" },
-                { label: "Students", val: "500+", sub: "Club Leadership" },
-                { label: "Projects", val: "10+", sub: "Completed" },
+                { label: "CGPA", val: "3.66", sub: "Graduated June 26, 2026" },
+                { label: "Degree", val: "BSc", sub: "Computer Engineering" },
+                { label: "Leadership", val: "500+", sub: "Students Guided" },
+                { label: "Projects", val: "10+", sub: "Built & Delivered" },
               ].map((stat, i) => (
                 <div key={i} className="space-y-2">
                   <div className="text-5xl font-bold text-[#D49E8D]">{stat.val}</div>
@@ -213,7 +205,7 @@ export default function Home() {
       
       {/* Editorial Footer Element */}
       <footer className="py-12 text-center opacity-40 text-xs tracking-widest uppercase">
-        © {new Date().getFullYear()} Delight Chirume — Breathe Life into Your Creative Work
+        © {new Date().getFullYear()} Delight Chirume — Open to Software, Embedded, and AI Opportunities
       </footer>
     </div>
   )

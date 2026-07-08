@@ -9,7 +9,7 @@ const projects = [
     solution: "Implemented computer vision for visual matching and NLP for semantic search.",
     outcome: "Increased recovery rates by 60% and reduced search time by 80%.",
     technologies: ["Next.js", "TypeScript", "OpenCV"],
-    githubUrl: "https://github.com/22207018/FindItAi",
+    githubUrl: "https://find-it-ai.vercel.app/",
     liveUrl: "#",
   },
   {

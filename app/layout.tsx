@@ -25,9 +25,9 @@ const mono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Delight Chirume | Computer Engineer",
+  title: "Delight Chirume | Computer Engineering Graduate",
   description:
-    "Computer Engineering student specializing in embedded systems, robotics, and AI integration.",
+    "Computer Engineering graduate specializing in software engineering, embedded systems, robotics, and AI integration.",
 };
 
 const navItems = [
@@ -106,7 +106,7 @@ export default function RootLayout({
                   <div>
                     <h3 className="font-bold text-lg">Delight Chirume</h3>
                     <p className="text-sm text-gray-600 dark:text-gray-400">
-                      Computer Engineering Student
+                      Computer Engineering Graduate
                     </p>
                   </div>
                 </div>
